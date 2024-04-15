@@ -1,0 +1,89 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+
+.backbutton{
+	-fx-text-fill:black;
+   -fx-border-radius: 5px;
+   -fx-border-color:black;
+  
+      -fx-font-size: 24px;
+  -fx-background-color:rgb(237,130,110);
+  
+}
+.backbutton:hover{
+	-fx-text-fill:black;
+   -fx-border-radius: 5px;
+   -fx-border-color:black;
+  
+      -fx-font-size: 24px;
+  -fx-background-color:rgb(	245, 242, 208);
+  
+}
+
+
+.uservsuser{
+	-fx-text-fill:black;
+   -fx-border-radius: 5px;
+   -fx-border-color:black;
+  
+      -fx-font-size: 12px;
+  -fx-background-color:rgb(237,130,110);
+  
+}
+
+
+.uservsuser:hover{
+	-fx-text-fill:black;
+   -fx-border-radius: 5px;
+   -fx-border-color:black;
+  
+      -fx-font-size: 12px;
+  -fx-background-color:rgb(	245, 242, 208);
+  
+}
+
+
+.easy{
+	-fx-text-fill:black;
+   -fx-border-radius: 5px;
+   -fx-border-color:black;
+  
+      -fx-font-size: 12px;
+  -fx-background-color:rgb(237,130,110);
+  
+}
+
+
+.easy:hover{
+	-fx-text-fill:black;
+   -fx-border-radius: 5px;
+   -fx-border-color:black;
+  
+      -fx-font-size: 12px;
+  -fx-background-color:rgb(	245, 242, 208);
+  
+}
+
+
+.difficult{
+	-fx-text-fill:black;
+   -fx-border-radius: 5px;
+   -fx-border-color:black;
+  
+      -fx-font-size: 12px;
+  -fx-background-color:rgb(237,130,110);
+  
+}
+
+.difficult:hover{
+	-fx-text-fill:black;
+   -fx-border-radius: 5px;
+   -fx-border-color:black;
+  
+      -fx-font-size: 12px;
+  -fx-background-color:rgb(	245, 242, 208);
+  
+}
+
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@welcome.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="389.0" fitWidth="399.0" layoutX="59.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@rectangle.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="136.0" layoutY="100.0" mnemonicParsing="false" onAction="#switchToScene2" prefHeight="64.0" prefWidth="236.0" styleClass="startgame" stylesheets="@application.css" text="Start Game">
+         <font>
+            <Font name="Times New Roman Bold" size="34.0" />
+         </font>
+      </Button>
+      <Button layoutX="136.0" layoutY="199.0" mnemonicParsing="false" onAction="#instructions" prefHeight="64.0" prefWidth="236.0" styleClass="instruction" stylesheets="@application.css" text="Instruction">
+         <font>
+            <Font name="Times New Roman Bold" size="34.0" />
+         </font>
+      </Button>
+      <Button layoutX="136.0" layoutY="294.0" mnemonicParsing="false" onAction="#exit" prefHeight="64.0" prefWidth="236.0" styleClass="exit" stylesheets="@application.css" text="Exit">
+         <font>
+            <Font name="Times New Roman Bold" size="34.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

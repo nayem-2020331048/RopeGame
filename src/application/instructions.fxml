@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <children>
+      <ImageView fitHeight="1080.0" fitWidth="1920.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@instructionsfxml.png" />
+         </image>
+      </ImageView>
+      <Button layoutX="46.0" layoutY="55.0" mnemonicParsing="false" onAction="#switchToScene1" prefHeight="72.0" prefWidth="160.0" styleClass="instruction" stylesheets="@application.css" text="Back">
+         <font>
+            <Font name="Times New Roman Bold" size="31.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
